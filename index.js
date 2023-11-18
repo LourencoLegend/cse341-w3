@@ -17,7 +17,7 @@ app.use(cors());
 const MongoClient = require('mongodb');
 
 const [db, objectId] = require('./services/connection')(
-    process.env.MONGO_URI.replace('dbname', 'wdd431'),
+    process.env.MONGO_URI.replace('dbname', 'wdd341'),
     MongoClient
 );
 
